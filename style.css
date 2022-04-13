@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:wght@700&display=swap');
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
