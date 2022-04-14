@@ -22,7 +22,8 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 20px;
-    grid-column-gap: 20px;   
+    grid-column-gap: 20px;
+    z-index: 1;  
 }
 
 .fact-area {
@@ -80,4 +81,23 @@ p {
 
 .text-light {
     color: #f7f5f4; 
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.splotch-area{
+    padding: 25px;
+    position: relative;
+}
+
+.splotch{
+    fill: #5d4b44;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 350px;
+    z-index: 0;
 }
